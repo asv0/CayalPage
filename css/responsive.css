@@ -1,0 +1,154 @@
+/* =====================================
+Template Name: Eshop
+Author Name: Naimur Rahman
+Author URI: http://www.wpthemesgrid.com/
+Description: Eshop - eCommerce HTML5 Template.
+Version:1.0
+========================================*/
+/* Tablet Screen */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.section{
+	padding:50px 0px;
+}
+.small-banner {
+	padding: 18px 0;	
+}
+.small-banner .single-banner.tab-height{
+	height:300px;
+}
+.small-banner .single-banner{
+	margin-bottom: 18px;
+}
+.modal-dialog .quickview-slider-active{
+	width:720px;
+}
+.quickview-content {
+	padding: 40px;
+}
+.quickview-content .size .title {
+	margin-top: 16px;
+}
+.midium-banner .single-banner .content {
+	padding: 35px;
+}
+.midium-banner .single-banner h3 {
+	font-size: 20px;
+	line-height: 24px;
+}
+.midium-banner .single-banner a {
+	padding: 6px 20px;
+	margin-top: 15px;
+}
+
+.cown-down {
+	height: auto;
+}
+.cown-down .padding-left {
+	padding: 0;
+}
+.cown-down .padding-right {
+	padding: 0;
+}
+.cown-down .content {
+	padding: 50px 110px;
+}
+.cown-down .content .heading-block{
+	padding: 0;
+	position: relative;
+}
+
+.shop-services{
+	padding:50px 0;
+}
+.shop-services .single-service {
+	padding: 42px 0 18px 0;
+	text-align: center;
+}
+.shop-services .single-service i {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	top: 0;
+	left: 50%;
+	margin-left:-20px;
+}
+.shop-services.home {
+	padding: 25px 0;
+}
+
+}
+/* Mobile Screen */
+@media only screen and (max-width: 767px) {
+
+.small-banner {
+	padding: 18px 0;
+	
+}
+.small-banner .single-banner{
+	margin-bottom: 18px;
+}
+
+.midium-banner .single-banner .content {
+	padding: 35px;
+}
+.midium-banner .single-banner{
+	margin-bottom:15px;
+}
+.midium-banner .single-banner h2 {
+	font-size: 20px;
+	line-height: 18px;
+}
+.midium-banner .single-banner a {
+	padding: 6px 20px;
+	margin-top: 15px;
+}
+.most-popular .single-product {
+	margin: 20px 15px 0 15px;
+}
+}
+.cown-down {
+	height: auto;
+}
+.cown-down .content .title {
+	font-size: 22px;
+}
+.cown-down .padding-left {
+	padding: 0;
+}
+.cown-down .padding-right {
+	padding: 0;
+}
+.cown-down .content {
+	padding: 30px 20px;
+}
+.cown-down .content .price {
+	margin-top: 22px;
+	font-size: 28px;
+}
+.cown-down .content .price s {
+	font-size: 20px;
+}
+.cown-down .content .heading-block{
+	padding: 0;
+	position: relative;
+}
+.shop-services{
+	padding:50px 0;
+}
+.shop-services .single-service {
+	padding: 42px 0 18px 0;
+	text-align: center;
+}
+.shop-services .single-service i {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	top: 0;
+	left: 50%;
+	margin-left:-20px;
+}
+.shop-services.home {
+	padding: 25px 0;
+}
