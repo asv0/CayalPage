@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,6 +23,7 @@
 
 </head>
 <body>
+
   <nav class="navbar navbar-expand-lg navbar-dark default-color p-4 ">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="assets/img/LOGO CAYAL-FINAL-2010.png" width="30" alt="" /></a>
@@ -44,19 +46,19 @@
 
   
       <div class="container my-4">
-      
+
         
         <div class="row">
           <div class="col-lg-3">
             <h2 class="my-3 text-uppercase text-center">Categorias</h2>
             <div class="list-group text-center" id="myBtnContainer">
-              <button class="btn text-white active" onclick="filterSelection('all')"> TODOS</button>
-              <button class="btn text-white" onclick="filterSelection('cerdo')"> CERDO</button>
-              <button class="btn text-white" onclick="filterSelection('pollo')"> POLLO </button>
-              <button class="btn text-white" onclick="filterSelection('res')"> RES</button>
-              <button class="btn text-white" onclick="filterSelection('importados')"> IMPORTADOS</button>
-              <button class="btn text-white" onclick="filterSelection('pavo')"> PAVO</button>
-              <button class="btn text-white" onclick="filterSelection('marinados')"> MARINADOS</button>
+              <button class="btn text-white active" id="todos" onclick="filterSelection('all')"> TODOS</button>
+              <button class="btn text-white" id="cerdo" onclick="filterSelection('cerdo')"> CERDO</button>
+              <button class="btn text-white" id="pollo" onclick="filterSelection('pollo')"> POLLO </button>
+              <button class="btn text-white" id="res" onclick="filterSelection('res')"> RES</button>
+              <button class="btn text-white" id="importados" onclick="filterSelection('importados')"> IMPORTADOS</button>
+              <button class="btn text-white" id="pavo" onclick="filterSelection('pavo')"> PAVO</button>
+              <button class="btn text-white" id="marinados" onclick="filterSelection('marinados')"> MARINADOS</button>
             </div>
           </div>
       
@@ -1269,5 +1271,125 @@
 <!-- Core theme JS-->
 <script src="js/scripts.js"></script>
 <script src="js/productos.js"></script>
+<script>
+   // window.onload = function() {
+      if(<?php echo strlen($_GET['tipo']) ?> ==10 ){
+        filterSelection('importados')
+        var elemento = document.getElementById("importados");
+        elemento.className += "btn active";
+        elemento.style.color = "white";
+
+        var res = document.getElementById("res");
+        res.classList.remove('active')
+        var pollo = document.getElementById("pollo");
+        pollo.classList.remove('active')
+        var cerdo = document.getElementById("cerdo");
+        cerdo.classList.remove('active')
+        var pavo = document.getElementById("pavo");
+        pavo.classList.remove('active')
+        var marinados = document.getElementById("marinados");
+        marinados.classList.remove('active')
+        var todos = document.getElementById("todos");
+        todos.classList.remove('active')
+
+      } if(<?php echo strlen($_GET['tipo']) ?> ==7 ){
+        filterSelection('pollo')
+        var elemento = document.getElementById("pollo");
+        elemento.className += "btn active";
+        elemento.style.color = "white";
+
+        var res = document.getElementById("res");
+        res.classList.remove('active')
+        var importados = document.getElementById("importados");
+        importados.classList.remove('active')
+        var cerdo = document.getElementById("cerdo");
+        cerdo.classList.remove('active')
+        var pavo = document.getElementById("pavo");
+        pavo.classList.remove('active')
+        var marinados = document.getElementById("marinados");
+        marinados.classList.remove('active')
+        var todos = document.getElementById("todos");
+        todos.classList.remove('active')
+      } if(<?php echo strlen($_GET['tipo']) ?> ==3 ){
+        filterSelection('res')
+
+        var elemento = document.getElementById("res");
+        elemento.className += "btn active";
+        elemento.style.color = "white";
+
+        var pollo = document.getElementById("pollo");
+        pollo.classList.remove('active')
+        var importados = document.getElementById("importados");
+        importados.classList.remove('active')
+        var cerdo = document.getElementById("cerdo");
+        cerdo.classList.remove('active')
+        var pavo = document.getElementById("pavo");
+        pavo.classList.remove('active')
+        var marinados = document.getElementById("marinados");
+        marinados.classList.remove('active')
+        var todos = document.getElementById("todos");
+        todos.classList.remove('active')
+      } if(<?php echo strlen($_GET['tipo']) ?> ==4 ){
+        filterSelection('pavo')
+
+        var elemento = document.getElementById("pavo");
+        elemento.className += "btn active";
+        elemento.style.color = "white";
+
+        var pollo = document.getElementById("pollo");
+        pollo.classList.remove('active')
+        var importados = document.getElementById("importados");
+        importados.classList.remove('active')
+        var cerdo = document.getElementById("cerdo");
+        cerdo.classList.remove('active')
+        var res = document.getElementById("res");
+        res.classList.remove('active')
+        var marinados = document.getElementById("marinados");
+        marinados.classList.remove('active')
+        var todos = document.getElementById("todos");
+        todos.classList.remove('active')
+        } if(<?php echo strlen($_GET['tipo']) ?> ==5 ){
+        filterSelection('cerdo')
+
+        var elemento = document.getElementById("cerdo");
+        elemento.className += "btn active";
+        elemento.style.color = "white";
+
+        var pollo = document.getElementById("pollo");
+        pollo.classList.remove('active')
+        var importados = document.getElementById("importados");
+        importados.classList.remove('active')
+        var pavo = document.getElementById("pavo");
+        pavo.classList.remove('active')
+        var res = document.getElementById("res");
+        res.classList.remove('active')
+        var marinados = document.getElementById("marinados");
+        marinados.classList.remove('active')
+        var todos = document.getElementById("todos");
+        todos.classList.remove('active')
+      } if(<?php echo strlen($_GET['tipo']) ?> ==8 ){
+        filterSelection('marinados')
+
+        var elemento = document.getElementById("marinados");
+        elemento.className += "btn active";
+        elemento.style.color = "white";
+
+        var pollo = document.getElementById("pollo");
+        pollo.classList.remove('active')
+        var importados = document.getElementById("importados");
+        importados.classList.remove('active')
+        var pavo = document.getElementById("pavo");
+        pavo.classList.remove('active')
+        var res = document.getElementById("res");
+        res.classList.remove('active')
+        var cerdo = document.getElementById("cerdo");
+        cerdo.classList.remove('active')
+        var todos = document.getElementById("todos");
+        todos.classList.remove('active')
+       }
+
+// };
+
+</script>
 </body>
 </html>
