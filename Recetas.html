@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <title>Recetas</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/logo_cayal.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />    
-            <!-- CSS aos-->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/recetas.css" rel="stylesheet" />
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Agency - Start Bootstrap Theme</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/prueba.css" rel="stylesheet" />
+</head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark default-color p-4 ">
@@ -29,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent-3">
               <ul class="navbar-nav text-uppercase ml-auto ">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html">inicio</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="productos.php">Productos</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#recetas">Recetas</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="promocion.html">Promociones</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="nosotros.html">Nosotros</a></li>
@@ -38,104 +37,102 @@
             </div>
         </nav>
 
-        <!-- recetas Grid-->
-        <section class="page-section" id="recetas">
-            <div class="container">
-                <div class="text-center" >
-                    <img src="assets/img/icon/carnicero.png" class="img-fluid" width="110" alt="">
-                    <h2 class="section-heading text-uppercase">Recetas</h2>
-                    <h3 class="section-subheading text-muted py-4">¿Aún no sabes qué comer? Conoce nuestras deliciosas recetas.</h3>
+     <!-- Portfolio Grid-->
+     <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <img src="assets/img/icon/carnicero.png" class="img-fluid" width="110" alt="">
+                <h2 class="section-heading text-uppercase">Recetas</h2>
+                <h3 class="section-subheading text-muted">¿Aún no sabes qué comer? Conoce nuestras deliciosas recetas.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/Recetas/short_01.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Fetuccine cremoso</div>
+                            <div class="portfolio-caption-subheading text-muted">Con pollo a las finas hierbas</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="recetas-item">
-                            <a class="recetas-link" data-toggle="modal" href="#recetasModal1">
-                                <div class="recetas-hover">
-                                    <div class="recetas-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/recetas/short_01.jpg" alt="" />
-                            </a>
-                            <div class="recetas-caption">
-                                <div class="recetas-caption-heading">Fetuccine cremoso</div>
-                                <div class="recetas-caption-subheading text-muted">con pollo a las finas hierbas</div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/Recetas/short_02.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Papas rellenas</div>
+                            <div class="portfolio-caption-subheading text-muted">De carne asada</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="recetas-item">
-                            <a class="recetas-link" data-toggle="modal" href="#recetasModal2">
-                                <div class="recetas-hover">
-                                    <div class="recetas-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/recetas/short_02.jpg" alt="" />
-                            </a>
-                            <div class="recetas-caption">
-                                <div class="recetas-caption-heading">Papas rellenas</div>
-                                <div class="recetas-caption-subheading text-muted">De carne asada</div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/Recetas/short_03.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Carne asada</div>
+                            <div class="portfolio-caption-subheading text-muted">Al carbon con guacamole</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4">
-                        <div class="recetas-item">
-                            <a class="recetas-link" data-toggle="modal" href="#recetasModal3">
-                                <div class="recetas-hover">
-                                    <div class="recetas-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/recetas/short_03.jpg" alt="" />
-                            </a>
-                            <div class="recetas-caption">
-                                <div class="recetas-caption-heading">Carne asada</div>
-                                <div class="recetas-caption-subheading text-muted"> Al carbon con guacamole</div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/Recetas/short_04.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Wrap saludable</div>
+                            <div class="portfolio-caption-subheading text-muted">Con pollo</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                        <div class="recetas-item">
-                            <a class="recetas-link" data-toggle="modal" href="#recetasModal4">
-                                <div class="recetas-hover">
-                                    <div class="recetas-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/Recetas/short_04.jpg" alt="" />
-                            </a>
-                            <div class="recetas-caption">
-                                <div class="recetas-caption-heading">Wrap saludable</div>
-                                <div class="recetas-caption-subheading text-muted">Con pollo</div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
+                            <img class="img-fluid" src="assets/img/Recetas/short_05.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Hamburguesa de res</div>
+                            <div class="portfolio-caption-subheading text-muted">Con cebolla caramelizada</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                        <div class="recetas-item">
-                            <a class="recetas-link" data-toggle="modal" href="#recetasModal5">
-                                <div class="recetas-hover">
-                                    <div class="recetas-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/recetas/short_05.jpg" alt="" />
-                            </a>
-                            <div class="recetas-caption">
-                                <div class="recetas-caption-heading">Hamburguesa de res</div>
-                                <div class="recetas-caption-subheading text-muted">Con cebolla caramelizada</div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="recetas-item">
-                            <a class="recetas-link" data-toggle="modal" href="#recetasModal6">
-                                <div class="recetas-hover">
-                                    <div class="recetas-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                </div>
-                                <img class="img-fluid" src="assets/img/recetas/short_06.jpg" alt="" />
-                            </a>
-                            <div class="recetas-caption">
-                                <div class="recetas-caption-heading">taco Tlayuda</div>
-                                <div class="recetas-caption-subheading text-muted">De res</div>
-                            </div>
+                            <img class="img-fluid" src="assets/img/Recetas/short_06.jpg" alt="" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Taco tlayuda</div>
+                            <div class="portfolio-caption-subheading text-muted">De res</div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-
-        
+        </div>
+    </section>
     <section class="container cta-overlap">
         <div class="text d-flex">
           <h4 class="text-white">Recuerda que en <span style="color: #d00000;">  #CarnesCayal </span> contamos con servicio a domicilio sin costo y sin mínimo de compra </h4>
@@ -182,20 +179,22 @@
             </div>
         </div>
     </footer>
- <!--Recetas Modals-->
+
+
+            <!-- Portfolio Modals-->
         <!-- Modal 1-->
-        <div class="recetas-modal modal fade" id="recetasModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/recetas/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
                                     <h2 class="text-uppercase">Fetucinne Cremoso</h2>
                                     <p class="item-intro text-muted"> con pollo a las finas hierbas.</p>
+                                    <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
                                     <hr>
                                     <p>Tiempo de cocción: 10 min | porciones: 4 | dificultad: fácil</p>
                                     <h5>Ingredientes</h5>
@@ -217,7 +216,6 @@
                                         <li>Para servir, puede usar un plato para pasta y servir una porción de Fetucinne cremoso, cortar la pechuga en tiras y servir sobre la pasta.</li>
                                       </ol>
                                     <img class="img-fluid justify-content-center" src="assets/img/recetas/short_01.jpg" width="200" alt="" />
-                                    
                                 </div>
                             </div>
                         </div>
@@ -226,18 +224,18 @@
             </div>
         </div>
         <!-- Modal 2-->
-        <div class="recetas-modal modal fade" id="recetasModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/Recetas/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
                                     <h2 class="text-uppercase">Papa rellena</h2>
                                     <p class="item-intro text-muted"> con carne asada.</p>
+                                    <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
                                     <hr>
                                     <p>Tiempo de cocción: 15 min | porciones: 8 | dificultad: fácil</p>
                                     <h5>Ingredientes</h5>
@@ -253,15 +251,14 @@
                                     <h5>Preparación</h5>
                                     <ol class="text-left">
                                         <li>Cocer las papas en 4 lt de agua con 2 cucharadas de sal 30gr aprox y reservar.</li>
-                                        <li>Descongelar 2 Paq PULPA DE CERDO REJALDA Y ADOBADA (Listas para cocinar cayal)</li>
+                                        <li>Descongelar 2 Paq PULPA DE CERDO REJALADA Y ADOBADA (Listas para cocinar cayal)</li>
                                         <li>Picar la cebolla en cubos medianos, el tocino y la pulpa de cerdo rejalada y adobada</li>
                                         <li>En una sartén grande dorar el tocino y con la grasa sobrante dorar la cebolla, incorporar la pulpa y cocinar por 15 min a fuego medio. Reservar.</li>
                                         <li>Cuando las papas están tibias cortar por mitades y con una cuchara retirar parte del centro de la papa sin llegar a la cascara.</li>
                                         <li>Rellenar con carnitas las mitades de papa, cubrir con queso pizzero y gratinar en el horno de microondas por 1 min aprox</li>
                                         <li>Agregar crema al gusto, cebollín o perejil al gusto y disfrute.</li>
-
                                       </ol>
-                                    <img class="img-fluid justify-content-center" src="assets/img/recetas/short_02.jpg" width="200" alt="" />
+                                      <img class="img-fluid justify-content-center" src="assets/img/recetas/short_02.jpg" width="200" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -270,18 +267,18 @@
             </div>
         </div>
         <!-- Modal 3-->
-        <div class="recetas-modal modal fade" id="recetasModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/Recetas/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
                                     <h2 class="text-uppercase">Carne asada</h2>
                                     <p class="item-intro text-muted">Al carbon con guacamole</p>
+                                    <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
                                     <hr>
                                     <p>Tiempo de cocción: 15 min| porciones: 4 | dificultad: fácil</p>
                                     <h5>Ingredientes</h5>
@@ -311,19 +308,20 @@
             </div>
         </div>
         <!-- Modal 4-->
-        <div class="recetas-modal modal fade" id="recetasModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/Recetas/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here-->
-                                <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
-                                <h2 class="text-uppercase">Wrap saludable</h2>
-                                <p class="item-intro text-muted">De pollo</p>
-                                <hr>
-                                <p>Tiempo de cocción: 25 min| porciones: 8 | dificultad: fácil</p>
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Wrap saludable</h2>
+                                    <p class="item-intro text-muted">De pollo</p>
+                                    <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
+                                    <hr>
+                                    <p>Tiempo de cocción: 25 min| porciones: 8 | dificultad: fácil</p>
                                 <h5>Ingredientes</h5>
                                 <ul class="list-inline">
                                     <li>1 Paq Filete de pechuga con sal y ajo de LISTAS PARA COCINAR CAYAL.</li>
@@ -343,7 +341,7 @@
                                     <li>Envolver en forma de cono o si lo prefiere en forma de burrito y cortar a la mitad para servir.</li>
                                   </ol>
                                 <img class="img-fluid justify-content-center" src="assets/img/recetas/short_04.jpg" width="200" alt="" />
-                            </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -351,18 +349,18 @@
             </div>
         </div>
         <!-- Modal 5-->
-        <div class="recetas-modal modal fade" id="recetasModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/Recetas/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
                                     <h2 class="text-uppercase">Hamburguesa de res</h2>
                                     <p class="item-intro text-muted">Cebolla caramelizada</p>
+                                    <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
                                     <hr>
                                     <p>Tiempo de cocción: 30 min | porciones: 6 | dificultad: fácil</p>
                                     <h5>Ingredientes</h5>
@@ -389,7 +387,6 @@
                                       </ol>
                                     <img class="img-fluid justify-content-center" src="assets/img/recetas/short_05.jpg" width="200" alt="" />
                                 </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -397,18 +394,18 @@
             </div>
         </div>
         <!-- Modal 6-->
-        <div class="recetas-modal modal fade" id="recetasModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/Recetas/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project Details Go Here-->
-                                    <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
                                     <h2 class="text-uppercase">Taco tlayuda</h2>
                                     <p class="item-intro text-muted">De res</p>
+                                    <img src="assets/img/icon/cocinero.svg" class="img-fluid" width="80" alt="">
                                     <hr>
                                     <p>Tiempo de cocción: 15 min| porciones: 12 tacos | dificultad: fácil</p>
                                     <h5>Ingredientes</h5>
@@ -429,24 +426,21 @@
                                       </ol>
                                     <img class="img-fluid justify-content-center" src="assets/img/recetas/short_06.jpg" width="200" alt="" />
                                 </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-<!-- Bootstrap core JS-->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-<!-- Third party plugin JS-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-<!-- Contact form JS-->
-<script src="assets/mail/jqBootstrapValidation.js"></script>
-<script src="assets/mail/contact_me.js"></script>
-<!-- Core theme JS-->
-<script src="js/scripts.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
 </body>
-
 </html>
